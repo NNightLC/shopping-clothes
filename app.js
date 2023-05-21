@@ -33,8 +33,13 @@ function clicked(event) {
 
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("overlay").style.width = "calc(100% - 250px)";
+  document.getElementById("overlay").classList.add("active");
+  
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("overlay").classList.remove("active");
+  
 }
