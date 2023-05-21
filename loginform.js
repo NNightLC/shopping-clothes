@@ -54,6 +54,7 @@ loginBtn.addEventListener('click', function(event) {
         // Display a success message
         alert(`Login Successful! Welcome, ${signUpName}`);
         isLoggedIn = true;
+        window.location.href = 'index.html';
         break;
       }
     }
