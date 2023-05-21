@@ -42,7 +42,7 @@
                             name="logemail"
                             class="form-style"
                             placeholder="Your Email"
-                            id="logemail"
+                            id="logEmail"
                             autocomplete="off"
                           />
                           <i class="input-icon uil uil-at"></i>
@@ -53,7 +53,7 @@
                             name="logpass"
                             class="form-style"
                             placeholder="Your Password"
-                            id="logpass"
+                            id="logPass"
                             autocomplete="off"
                           />
                           <i class="input-icon uil uil-lock-alt"></i>
@@ -68,41 +68,43 @@
                   <div class="card-back">
                     <div class="center-wrap">
                       <div class="section text-center">
-                        <h4 class="mb-4 pb-3">Sign Up</h4>
-                        <div class="form-group">
-                          <input
-                            type="text"
-                            name="logname1"
-                            class="form-style"
-                            placeholder="Your Full Name"
-                            id="logname1"
-                            autocomplete="off"
-                          />
-                          <i class="input-icon uil uil-user"></i>
-                        </div>
-                        <div class="form-group mt-2">
-                          <input
-                            type="email"
-                            name="logemail1"
-                            class="form-style"
-                            placeholder="Your Email"
-                            id="logemail1"
-                            autocomplete="off"
-                          />
-                          <i class="input-icon uil uil-at"></i>
-                        </div>
-                        <div class="form-group mt-2">
-                          <input
-                            type="password"
-                            name="logpass1"
-                            class="form-style"
-                            placeholder="Your Password"
-                            id="logpass1"
-                            autocomplete="off"
-                          />
-                          <i class="input-icon uil uil-lock-alt"></i>
-                        </div>
-                        <a href="#" class="btn mt-4">submit</a>
+                        <form id="signForm">
+                          <h4 class="mb-4 pb-3">Sign Up</h4>
+                          <div class="form-group">
+                            <input
+                              type="text"
+                              name="logname1"
+                              class="form-style"
+                              placeholder="Your Full Name"
+                              id="signName"
+                              autocomplete="off"
+                            />
+                            <i class="input-icon uil uil-user"></i>
+                          </div>
+                          <div class="form-group mt-2">
+                            <input
+                              type="email"
+                              name="logemail1"
+                              class="form-style"
+                              placeholder="Your Email"
+                              id="signEmail"
+                              autocomplete="off"
+                            />
+                            <i class="input-icon uil uil-at"></i>
+                          </div>
+                          <div class="form-group mt-2">
+                            <input
+                              type="password"
+                              name="logpass1"
+                              class="form-style"
+                              placeholder="Your Password"
+                              id="signPass"
+                              autocomplete="off"
+                            />
+                            <i class="input-icon uil uil-lock-alt"></i>
+                          </div>
+                          <a href="#" class="btn mt-4" id="submitBtn">submit</a>
+                        </form>
                       </div>
                     </div>
                   </div>
@@ -114,6 +116,6 @@
       </div>
     </div>
     <!-- partial -->
-  <script src="loginform.js"></script>
+    <script src="loginform.js"></script>
   </body>
 </html>
