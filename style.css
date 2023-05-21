@@ -1,0 +1,502 @@
+.fa-solid.fa-magnifying-glass {
+    float: left;
+    position: relative;
+    top: 15px;
+    font-size: 21px;
+  }
+  .nametag {
+    color: black;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    left: 50px;
+    font-family: "Encode Sans Semi Expanded", sans-serif;
+    font-size: 33px;
+  }
+  .navbar {
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+  }
+  body {
+    padding: 1rem 3.8rem 0rem 3.8rem;
+  }
+  .personal {
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    position: relative;
+    top: 15px;
+    font-size: 21px;
+    width: 120px;
+  }
+  ul {
+    list-style-type: none;
+    font-family: "Encode Sans Semi Expanded", sans-serif;
+    font-size: 15px;
+    justify-content: space-between;
+    width: 900px;
+    display: flex;
+    margin: auto;
+    position: relative;
+  
+  }
+  ul > li {
+    display: inline-block;
+  }
+  .folder {
+    display: inline-block;
+    position: relative;
+    color: #000000;
+  }
+  
+  .folder::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.17s ease-out;
+  }
+  
+  .folder:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .img{
+    padding-top: 30px;
+  }
+  .head2{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    
+  }
+  .smtxt{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+  }
+  b{
+    text-decoration-line: underline;
+  }
+  .floaty{
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    top: -380px;
+    left: 70px;
+    font-size: 28px;
+    font-weight: 9000;
+  }
+  .spec{
+    color:white;
+    font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  }
+  .up{
+    position: relative;
+    top: -150px;
+  }
+  .card {
+    display: inline-block;
+    margin: 20px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 364px;
+    height: auto;
+  }
+  .head3{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 19px;
+  }
+  .dark{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+    font-family: 'Nunito', sans-serif;
+  }
+  .dark2{
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'Nunito', sans-serif;
+  }
+  .item{
+    display: inline-block;
+    width: 242px;
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  .item img{
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    width: 231px; 
+    height: 309px; 
+    object-fit: cover;
+    object-position: 65% 0%; 
+    transition: transform 500ms ease-in-out;
+    transform-origin: center center;
+  }
+  
+  .item {
+    /* other styles */
+    transition: box-shadow 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) 0s; /* add a transition property for the box-shadow with a cubic-bezier timing function */
+  }
+  
+  .item img:hover{
+    transform: scale(1.01);
+  }
+  .item:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.2);
+    
+  }
+  .discription{
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.5;
+  }
+  .slick-track{
+    height: 450px;
+  }
+  .slick-initialized.slick-slider {
+    display: flex;
+    align-items: center;
+  }
+  center > li {
+    font-family: 'Nunito', sans-serif;
+    border-bottom: 2px solid #000;
+    padding-bottom: 3px;
+  }
+  .fleximg{
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+  }
+  .total {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    height: 600px;
+  }
+  .left {
+    width: fit-content;
+    height: 500px;
+    display: inline-block;
+  }
+  .left img {
+    width: 560px;
+    height: auto;
+    margin-right: 40px;
+  }
+  .right {
+    width: fit-content;
+    height: 500px;
+    display: inline-block;
+    vertical-align: top;
+  
+  }
+  .right img{
+    margin-right: 40px;
+    width: 255px;
+  }
+  .right2 {
+    width: fit-content;
+    height: 500px;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    position: relative;
+    top: -260px;
+    right: 60px;
+  
+  }
+  .right2 img{
+    margin-right: 40px;
+    width: 255px;
+  }
+  .total img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+  }
+  .aesthetic-pants-btn {
+    background-color: white;
+    color: black;
+    padding: 10px 40px 10px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+    top: -100px;
+    left: 300px;
+    font-family: 'Nunito', sans-serif;
+  
+  }
+  .aesthetic-pants-btn:hover {
+    background-color: black;
+    color: white;
+  }
+  .aesthetic-pants-btn2{
+    background-color: white;
+    color: black;
+    padding: 10px 40px 10px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+    top: -400px;
+    left: 515px;
+    font-family: 'Nunito', sans-serif;
+  
+  }
+  .aesthetic-pants-btn2:hover {
+    background-color: black;
+    color: white;
+  }
+  .aesthetic-pants-btn3{
+    background-color: white;
+    color: black;
+    padding: 10px 40px 10px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+    top: -400px;
+    left: 580px;
+    font-family: 'Nunito', sans-serif;
+  
+  }
+  .aesthetic-pants-btn3:hover {
+    background-color: black;
+    color: white;
+  }
+  .aesthetic-pants-btn4{
+    background-color: white;
+    color: black;
+    padding: 10px 35px 10px 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+    top: -100px;
+    left: 67px;
+    font-family: 'Nunito', sans-serif;
+  
+  }
+  .aesthetic-pants-btn4:hover {
+    background-color: black;
+    color: white;
+  }
+  .aesthetic-pants-btn5{
+    background-color: white;
+    color: black;
+    padding: 10px 35px 10px 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+    top: -100px;
+    left: 115px;
+    font-family: 'Nunito', sans-serif;
+  
+  }
+  .aesthetic-pants-btn5:hover {
+    background-color: black;
+    color: white;
+  }
+  .left1{
+    display: inline-block;
+    width: 30%;
+  }
+  .left1 img{
+    width: 577px;
+    height: auto;
+  }
+  .right1{
+    display: inline-block;
+    width: 550px;
+    position: relative;
+    left: 300px;
+    top: 140px;
+  }
+  .right1 text{
+    font-family: 'Nunito', sans-serif;
+  }
+  .dark3{
+    letter-spacing: 2px;
+    font-family: 'Nunito', sans-serif;
+  }
+  .descrip{
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.75;
+  }
+  .image-container {
+    width: 577px; /* set the width of the container */
+    height: auto; /* set the height of the container */
+    overflow: hidden; /* hide the overflow of the image */
+  }
+  
+  .image-container img {
+    transition: transform 0.7s ease-in-out; /* add a transition effect */
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.2); /* scale up the image on hover */
+  }
+  .rule{
+    display: inline-block;
+  }
+  .footer{
+    width: 1255px;
+    height: 300px;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+    padding-left: 80px;
+    padding-right: 80px;
+    position: relative;
+    left: -90px;
+  }
+  .footer img{
+    width: 60px;
+  }
+  .dest{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .bigboi{
+    position: relative;
+    padding-top: -900px;
+  }
+  .hide {
+    display: none;
+    position: relative;
+    top: -100px;
+  }
+  
+  .pieces:hover + .hide {
+    display: block;
+  }
+  button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.372);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 24px;
+  }
+  .circle {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 29px;
+    right: 55px;
+  }
+  
+  .number {
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+.sidenav {
+  height: 100%;
+  width: 0; 
+  position: fixed;
+  top: 0;
+  right: 0; /* Changed from left: 0 */
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  font-family: "Encode Sans Semi Expanded", sans-serif;
+}
+
+
+.sidenav a:hover {
+  color: black;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px; /* Changed from left: 25px */
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+}
+
+.product-name {
+  font-weight: 501;
+  padding-left: 20px;
+}
+
+.product-price {
+  margin-left: 10px;
+  padding-left: 20px;
+}
+
+.subtotal {
+  text-align: right;
+}
+
+.subtotal-value {
+  float: right;
+  font-weight: bold;
+}
+.closebtn{
+  text-decoration: none;
+  color: black;
+} 
+#checkoutButton {
+  background-color: black;
+  color: white;
+  width: 230px !important;
+  height: 30px !important;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: "Encode Sans Semi Expanded", sans-serif;
+  float: bottom;
+  top: 800px;
+}
+
+  
