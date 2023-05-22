@@ -10,8 +10,8 @@ function clicked(event) {
   const newBtn = event.currentTarget.getAttribute('data-name');
   const newPrice = event.currentTarget.getAttribute('data-price');
   arraySelected.push({ name: newBtn, price: newPrice });
-  console.log(arraySelected);
-  console.log(arraySelected.length);
+  // console.log(arraySelected);
+  // console.log(arraySelected.length);
 
   const arrayLengthElement = document.getElementById('array-length');
   arrayLengthElement.textContent = arraySelected.length;
